@@ -1,0 +1,48 @@
+import { SalesPerson } from '../types';
+
+export const initialSalesPersons: SalesPerson[] = [
+  {
+    id: 'sp-1',
+    name: 'Rohit Sharma',
+    role: 'Senior Tour Consultant',
+    phone: '+91 98320 12345',
+    email: 'rohit@northeastdestinations.in',
+    upiId: 'rohitsharma@okaxis',
+    commissionPercentage: 50,
+    isActive: true,
+    createdAt: '2026-01-01T00:00:00.000Z',
+  },
+  {
+    id: 'sp-2',
+    name: 'Priya Das',
+    role: 'Sikkim & Darjeeling Desk',
+    phone: '+91 97331 54321',
+    email: 'priya@northeastdestinations.in',
+    upiId: 'priyadas@paytm',
+    commissionPercentage: 50,
+    isActive: true,
+    createdAt: '2026-01-15T00:00:00.000Z',
+  },
+  {
+    id: 'sp-3',
+    name: 'Vikram Sen',
+    role: 'North Sikkim & Offbeat Specialist',
+    phone: '+91 89721 98765',
+    email: 'vikram@northeastdestinations.in',
+    upiId: 'vikramsen@icici',
+    commissionPercentage: 50,
+    isActive: true,
+    createdAt: '2026-02-01T00:00:00.000Z',
+  },
+  {
+    id: 'sp-4',
+    name: 'Ananya Roy',
+    role: 'Custom Group Tour Executive',
+    phone: '+91 94340 56789',
+    email: 'ananya@northeastdestinations.in',
+    upiId: 'ananyaroy@oksbi',
+    commissionPercentage: 50,
+    isActive: true,
+    createdAt: '2026-02-15T00:00:00.000Z',
+  },
+];

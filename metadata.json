@@ -1,0 +1,6 @@
+{
+  "name": "North East Destinations - Itinerary & Lead Management System",
+  "description": "Comprehensive travel agency platform for North East Destinations to create, update, and export custom itineraries in PDF format with dual-rate quoting (Reserved Cab vs Sharing Cab) and integrated client lead CRM.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
